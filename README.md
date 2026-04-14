@@ -6,11 +6,11 @@ Desktop-Verwaltungssoftware für einen Fahrradladen auf Basis von Python, PySide
 
 ### Dashboard
 
-![Dashboard](/Users/student/Desktop/Bildschirmfoto 2026-04-14 um 20.08.05.png)
+![Dashboard](docs/images/dashboard.png)
 
 ### Kundenverwaltung
 
-![Kundenverwaltung](/Users/student/Desktop/Bildschirmfoto 2026-04-14 um 20.08.52.png)
+![Kundenverwaltung](docs/images/customers.png)
 
 ## Was die Anwendung kann
 
