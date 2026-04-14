@@ -21,7 +21,7 @@ Desktop-Verwaltungssoftware für einen Fahrradladen auf Basis von Python, PySide
 - CSV-Export für Kunden, Artikel und Bestellungen
 - Seed-Daten, damit das Projekt direkt mit Beispieldaten startbar ist
 
-## Projektstruktur einfach erklärt
+## Projektstruktur 
 
 ### `app/database`
 
@@ -110,8 +110,6 @@ Beispiel:
 - CSV-Export
 - Status-Hilfsfunktionen
 
-## Wichtige Dateien kurz erklärt
-
 ### `main.py`
 
 Das ist der eigentliche Einstiegspunkt der Anwendung.
@@ -133,11 +131,7 @@ Sie ist praktisch, wenn du:
 - direkt Beispielkunden und Beispielartikel brauchst
 - eine leere Datenbank schnell befüllen willst
 
-### `alembic.ini` und `migrations/`
-
-Das gehört zu Alembic.
-
-### Was ist Alembic?
+### Alembic
 
 Alembic ist das Migrationswerkzeug für SQLAlchemy.
 
@@ -150,21 +144,6 @@ Beispiel:
 
 Statt die Datenbank immer manuell umzubauen, macht Alembic das nachvollziehbar über Migrationen.
 
-### `pyproject.toml`
-
-Das ist eine moderne Projektdatei für Python.
-
-Darin stehen zum Beispiel:
-- Projektname
-- Python-Version
-- benötigte Abhängigkeiten
-- Test-Konfiguration
-
-### Was ist `.toml`?
-
-`.toml` ist ein Konfigurationsformat.
-
-Es wird oft in Python-Projekten verwendet, weil es übersichtlich und gut lesbar ist.
 
 ## Wie Datenfluss in der Anwendung funktioniert
 
