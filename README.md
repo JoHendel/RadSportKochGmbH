@@ -205,3 +205,6 @@ python seed.py
 ```bash
 python main.py
 ```
+
+>[!Note]
+>ChatGPT was used as a supporting tool in the implementation of this project.
